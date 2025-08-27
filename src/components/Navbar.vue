@@ -22,14 +22,14 @@
             </svg>
           </span>
         </button>
-        <a href="#" class="text-lg font-bold max-lg:w-36"
+        <a href="#" class="text-lg font-bold max-lg:w-32"
           ><img src="/assets/icon/logo.svg" alt=""
         /></a>
       </div>
 
       <ul
         :class="{
-          'sm:flex sm:items-center sm:gap-4 absolute sm:static top-20 left-0 w-full sm:w-auto bg-primary sm:bg-transparent p-4 sm:p-0': true,
+          'sm:flex sm:items-center text-base sm:gap-4 absolute sm:static top-20 left-0 w-full sm:w-auto bg-primary sm:bg-transparent p-4 sm:p-0': true,
           hidden: !isMenuOpen,
         }"
       >
@@ -1417,7 +1417,7 @@
       </ul>
 
       <!-- Login and Register -->
-      <div class="hidden sm:flex gap-4">
+      <div class="hidden sm:flex gap-4 text-sm">
         <a href="/login" class="py-3 px-4 text-primary">Log-in</a>
         <a href="/signup" class="py-3 px-6 text-white bg-secondary rounded-xl"
           >Sign-Up</a
